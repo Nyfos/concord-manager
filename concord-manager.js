@@ -8,11 +8,10 @@ function concord (val, texts) {
     var sing = texts[0]
     , plur = texts[1]
 
-    if (!sing || !plur) throw new SyntaxError("You must specify a singular and a plural!");
+    if (!plur) throw new SyntaxError("You must specify a singular and a plural!");
     if (typeof(sing) != "string") throw new TypeError('The value "singular" is not a string!')
     if (typeof(plur) != "string") throw new TypeError('The value "plural" is not a string!')
 
     if (val <= 0) throw new RangeError('The number specified is invalid!')
-    if (val == 1) return sing
-    if (val > 1) return plur
+    if (val == 1) { return sing } else { return plur }
 }

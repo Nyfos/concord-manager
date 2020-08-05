@@ -1,9 +1,4 @@
 <div align="center">
-  <br />
-  <p>
-    <a href="https://discord.js.org"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" /></a>
-  </p>
-  <br />
   <p>
     <a href="https://discord.gg/q6eMWS2"><img src="https://discordapp.com/api/guilds/616371260569681930/embed.png" alt="Serveur Discord" /></a>
     <a href="https://www.npmjs.com/package/concord-manager"><img src="https://img.shields.io/npm/v/concord-manager.svg?maxAge=3600" alt="Version NPM" /></a>

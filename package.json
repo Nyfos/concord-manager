@@ -1,0 +1,31 @@
+{
+  "name": "concord-manager",
+  "version": "1.0.0",
+  "description": "Récupérez le texte singulier ou pluriel associé en fonction de la valeur numérale spécifiée.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nyfos",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyfos/concord-manager.git"
+  },
+  "keywords": [
+    "singular",
+    "singulier",
+    "plural",
+    "pluriel",
+    "concord",
+    "concord-manager"
+  ],
+  "bugs": {
+    "url": "https://github.com/Nyfos/concord-manager/issues"
+  },
+  "homepage": "https://github.com/Nyfos/concord-manager#readme"
+}

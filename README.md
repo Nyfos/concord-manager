@@ -9,7 +9,7 @@
   </p>
 </div>
 
-## About
+## À propos
 concord-manager est un module NPM permettant de récupérer une texte au singulier ou au pluriel en fonction d'une valeur numérale associée.
 
 - Simple d'utilisation
@@ -20,7 +20,7 @@ concord-manager est un module NPM permettant de récupérer une texte au singuli
 
 `npm install concord-manager`
 
-## Example d'utilisation
+## Exemple d'utilisation
 ```js
 const ConcordManager = require('concord-manager');
 
@@ -29,7 +29,7 @@ console.log(ConcordManager(37, ['utilisateur', "utilisateurs"])) // -> "utilisat
 console.log(ConcordManager(-8, ['utilisateur', "utilisateurs"])) // -> RangeError
 ```
 
-## Links
+## Liens
 
 * [GitHub](https://github.com/Nyfos/concord-manager)
 * [NPM](https://www.npmjs.com/package/concord-manager)
